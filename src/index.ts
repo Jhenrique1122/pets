@@ -1,5 +1,6 @@
 import express from "express";
 import petsRouter from "./routes/petsRoutes";
+import {errorHandler} from "./middlewares/errorMidleware";
 
 const app = express();
 const port = 3000;
